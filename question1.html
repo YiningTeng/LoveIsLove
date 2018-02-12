@@ -86,10 +86,10 @@
 <script>
 	function show(){ 
 	    var question = document.getElementById("question"); 
-	    var answer = document.getElementById("answer");//输入文字的对象
+	    var answer = document.getElementById("answer"); 
 	    if (answer.value != "陈铭媛") {
-	    	var giveReponse = document.getElementById("inputReponse");//显示文本的对象
-	    	giveReponse.innerHTML = answer.value + "不是我要找的人哎（试试你的中文名全名吧~）";//把两个相连接
+	    	var giveReponse = document.getElementById("inputReponse"); 
+	    	giveReponse.innerHTML = answer.value + "不是我要找的人哎（试试你的中文名全名吧~）";
 	    } else {
 	    	window.location.href="https://yiningteng.github.io/LoveIsLove/question2.html";
 	    } 
